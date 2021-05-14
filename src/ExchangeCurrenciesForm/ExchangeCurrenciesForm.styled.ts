@@ -1,4 +1,4 @@
-import { Form } from 'antd';
+import { Carousel, Form } from 'antd';
 import styled from 'styled-components';
 
 export const StyledCarouselItem = styled.div`
@@ -6,13 +6,14 @@ export const StyledCarouselItem = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 160px;
-  color: #fff;
-  lineHeight: 160px;
-  textAlign: center;
-  background-color: #364d79;
+  height: calc(50vh - 26px);
 `;
 
 export const StyledFormItem = styled(Form.Item)`
   margin-bottom: 0;
+`;
+
+export const StyledCarousel = styled(Carousel)`
+  height: calc(50vh - 26px);
+  background-color: ${props => props?.theme?.lighter ? '#40a9ff' : '#096dd9'};
 `;

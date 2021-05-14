@@ -1,8 +1,10 @@
 import React, { FC } from 'react';
-import { Carousel, Form, Input, Space } from 'antd';
+import { Form, Input, Space, Typography } from 'antd';
 
 import { Currencies } from 'types';
-import { StyledCarouselItem, StyledFormItem } from './ExchangeCurrenciesForm.styled';
+import { StyledCarousel, StyledCarouselItem, StyledFormItem } from './ExchangeCurrenciesForm.styled';
+
+const { Title } = Typography;
 
 interface Props {
   bankAccount: {
@@ -12,39 +14,39 @@ interface Props {
 
 export const ExchangeCurrenciesForm: FC<Props> = ({ bankAccount }) => (
   <Form name="ExchangeCurrencies" onFinish={values => console.log(values)}>
-  <Carousel draggable initialSlide={1}>
-    {Object.entries(bankAccount).map((item) => (
-      <div key={item[0]}>
-        <StyledCarouselItem>
-          <Space size={40}>
-            <div>
-              <div>{item[0]}</div>
-              <div>You have {item[1]}</div>
-            </div>
-            <StyledFormItem name="from">
-              <Input />
-            </StyledFormItem>
-          </Space>
-        </StyledCarouselItem>
-      </div>
-    ))}
-  </Carousel>
-  <Carousel draggable initialSlide={2}>
-    {Object.entries(bankAccount).map((item) => (
-      <div key={item[0]}>
-        <StyledCarouselItem>
-          <Space size={40}>
-            <div>
-              <div>{item[0]}</div>
-              <div>You have {item[1]}</div>
-            </div>
-            <StyledFormItem name="from">
-              <Input />
-            </StyledFormItem>
-          </Space>
-        </StyledCarouselItem>
-      </div>
-    ))}
-  </Carousel>
-</Form>
+    <StyledCarousel draggable initialSlide={1} theme={{ lighter: true }}>
+      {Object.entries(bankAccount).map(([currency, value]) => (
+        <div key={currency}>
+          <StyledCarouselItem>
+            <Space size={40} wrap>
+              <div>
+                <Title level={2}>{currency}</Title>
+                <div>You have {value}</div>
+              </div>
+              <StyledFormItem name="from">
+                <Input />
+              </StyledFormItem>
+            </Space>
+          </StyledCarouselItem>
+        </div>
+      ))}
+    </StyledCarousel>
+    <StyledCarousel draggable initialSlide={2}>
+      {Object.entries(bankAccount).map(([currency, value]) => (
+        <div key={currency}>
+          <StyledCarouselItem>
+            <Space size={40} wrap>
+              <div>
+                <Title level={2}>{currency}</Title>
+                <div>You have {value}</div>
+              </div>
+              <StyledFormItem name="from">
+                <Input />
+              </StyledFormItem>
+            </Space>
+          </StyledCarouselItem>
+        </div>
+      ))}
+    </StyledCarousel>
+  </Form>
 );
