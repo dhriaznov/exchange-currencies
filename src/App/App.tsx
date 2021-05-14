@@ -1,15 +1,16 @@
 import React from 'react';
-import { Carousel, Button, Row, Col, Form, Input } from 'antd';
+import { Button, Row, Col } from 'antd';
 
-import { StyledCarouselItem, StyledHeader } from './App.styled';
+import { StyledHeader } from './App.styled';
 import { Currencies } from 'types';
+import { ExchangeCurrenciesForm } from 'ExchangeCurrenciesForm';
 
 const bankAccount: {
   [key in keyof typeof Currencies]: number
 } = {
   [Currencies.EUR]: 144.46,
-  [Currencies.USD]: 78.34,
   [Currencies.GBP]: 98.22,
+  [Currencies.USD]: 78.34,
 };
 
 export const App = () => {
@@ -24,27 +25,11 @@ export const App = () => {
             <div>1 eur = 1.21 usd</div>
           </Col>
           <Col>
-            <Button type="primary">Exchange</Button>
+            <Button type="primary" htmlType="submit" form="ExchangeCurrencies">Exchange</Button>
           </Col>
         </Row>
       </StyledHeader>
-      <Form>
-        <Carousel>
-          {Object.entries(bankAccount).map((item) => (
-            <StyledCarouselItem>
-              <Row justify="space-around" align="middle">
-                <Col>
-                  <div>{item[0]}</div>
-                  <div>You have {item[1]}</div>
-                </Col>
-                <Col>
-                  <Input />
-                </Col>
-              </Row>
-            </StyledCarouselItem>
-          ))}
-        </Carousel>
-      </Form>
+      <ExchangeCurrenciesForm bankAccount={bankAccount} />
     </div>
   );
 }
