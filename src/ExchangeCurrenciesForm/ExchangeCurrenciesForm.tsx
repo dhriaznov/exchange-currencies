@@ -1,47 +1,65 @@
 import React, { FC } from 'react';
-import { Form, Input, Space, Typography } from 'antd';
+import { Form, Space } from 'antd';
 
-import { Currencies } from 'types';
-import { StyledCarousel, StyledCarouselItem, StyledFormItem } from './ExchangeCurrenciesForm.styled';
-
-const { Title } = Typography;
-
+import { AccountType, Currencies } from 'types';
+import {
+  StyledCarousel,
+  StyledCarouselItem,
+  StyledFormItem,
+  StyledTitle,
+  StyledInput,
+} from './ExchangeCurrenciesForm.styled';
 interface Props {
-  bankAccount: {
-    [key in keyof typeof Currencies]: number
-  }
+  bankAccount: AccountType;
+  setPickedFromCurrency: (currency: Currencies) => void;
+  setPickedToCurrency: (currency: Currencies) => void;
 }
 
-export const ExchangeCurrenciesForm: FC<Props> = ({ bankAccount }) => (
-  <Form name="ExchangeCurrencies" onFinish={values => console.log(values)}>
-    <StyledCarousel draggable initialSlide={1} theme={{ lighter: true }}>
+export const ExchangeCurrenciesForm: FC<Props> = ({
+  bankAccount,
+  setPickedFromCurrency,
+  setPickedToCurrency,
+}) => (
+  <Form name="ExchangeCurrencies" onFinish={(values) => console.log(values)}>
+    <StyledCarousel
+      draggable
+      initialSlide={1}
+      theme={{ lighter: true }}
+      afterChange={(current) =>
+        setPickedFromCurrency(Object.keys(Currencies)[current] as Currencies)
+      }
+    >
       {Object.entries(bankAccount).map(([currency, value]) => (
         <div key={currency}>
           <StyledCarouselItem>
             <Space size={40} wrap>
               <div>
-                <Title level={2}>{currency}</Title>
+                <StyledTitle level={2}>{currency}</StyledTitle>
                 <div>You have {value}</div>
               </div>
               <StyledFormItem name="from">
-                <Input />
+                <StyledInput defaultValue={0} bordered={false} />
               </StyledFormItem>
             </Space>
           </StyledCarouselItem>
         </div>
       ))}
     </StyledCarousel>
-    <StyledCarousel draggable initialSlide={2}>
+    <StyledCarousel
+      draggable
+      initialSlide={2}
+      afterChange={(current) => setPickedToCurrency(Object.keys(Currencies)[current] as Currencies)}
+    >
       {Object.entries(bankAccount).map(([currency, value]) => (
         <div key={currency}>
           <StyledCarouselItem>
             <Space size={40} wrap>
               <div>
-                <Title level={2}>{currency}</Title>
+                <StyledTitle level={2}>{currency}</StyledTitle>
                 <div>You have {value}</div>
               </div>
-              <StyledFormItem name="from">
-                <Input />
+              <StyledFormItem name="to">
+                <StyledInput defaultValue={0} bordered={false} />
               </StyledFormItem>
             </Space>
           </StyledCarouselItem>

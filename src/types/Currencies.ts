@@ -1,5 +1,7 @@
 export enum Currencies {
-  USD='USD',
   EUR='EUR',
   GBP='GBP',
+  USD='USD',
 }
+
+export type CurrenciesType = typeof Currencies;
