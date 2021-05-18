@@ -1,5 +1,15 @@
 # Exchange Currencies
 
+## 4 easy steps to use repo locally:
+
+1. Clone the `exchange-currencies` repository.
+
+2. Create the `.env` file in the project root and copy the content from `.env.example` file
+
+3. Open the project root in terminal and run `yarn` to install the `node_modules`.
+
+4. Run the `yarn start` command to start the development server.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
