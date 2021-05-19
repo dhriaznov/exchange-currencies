@@ -1,20 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import { Button, Row, Col, notification } from 'antd';
 import axios from 'axios';
 
-import { Currencies, CurrenciesType, AccountType, RatesType } from 'types';
+import { Currencies, CurrenciesType, RatesType } from 'types';
 import { parseDecimals } from 'utils';
 import { ExchangeCurrenciesForm, Loader } from 'components';
+import { BankAccountContext } from '../../App';
 import { StyledHeader } from '../../App/App.styled';
-import { Link } from 'react-router-dom';
 
 const { REACT_APP_API_URL } = process.env;
-
-let bankAccount: AccountType = {
-  [Currencies.EUR]: 144.46,
-  [Currencies.GBP]: 98.22,
-  [Currencies.USD]: 78.34,
-};
 
 interface RateDataResponse {
   data: {
@@ -24,6 +19,8 @@ interface RateDataResponse {
 }
 
 export const ExchangeCurrencies = () => {
+  const history = useHistory();
+  const { bankAccount, setBankAccount } = useContext(BankAccountContext);
   const [isRateLoading, setIsRateLoading] = useState<boolean>(false);
   const [isExchangeLoading, setIsExchangeLoading] = useState<boolean>(false);
   const [rateData, setRateData] = useState<RatesType | null>(null);
@@ -85,11 +82,11 @@ export const ExchangeCurrencies = () => {
         params: { from: pickedFromCurrency, to: pickedToCurrency, amount: values.from },
       })
       .then(({ data }) => {
-        bankAccount = {
+        setBankAccount({
           ...bankAccount,
           [pickedFromCurrency]: bankAccount[pickedFromCurrency] - data.query.amount,
           [pickedToCurrency]: bankAccount[pickedToCurrency] + data.result,
-        };
+        });
       })
       .catch(() => {
         notification.error({
@@ -99,6 +96,8 @@ export const ExchangeCurrencies = () => {
       })
       .finally(() => {
         setIsExchangeLoading(false);
+
+        history.push('/');
       });
   };
 
