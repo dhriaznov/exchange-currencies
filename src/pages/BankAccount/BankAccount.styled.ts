@@ -43,9 +43,16 @@ export const StyledButton = styled(Button)`
   display: flex;
   align-items: center;
 
-  :hover {
+  :hover,
+  :focus {
     svg {
       fill: #40a9ff;
+    }
+  }
+
+  :active {
+    svg {
+      fill: #096dd9;
     }
   }
 `;
