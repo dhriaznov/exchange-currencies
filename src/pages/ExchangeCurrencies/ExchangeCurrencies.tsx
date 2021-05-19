@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState, useContext, useCallback } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { Button, Row, Col, notification } from 'antd';
 import axios from 'axios';
 
 import { Currencies, CurrenciesType, RatesType } from 'types';
-import { parseDecimals } from 'utils';
+import { parseDecimals, forms } from 'utils';
 import { ExchangeCurrenciesForm, Loader } from 'components';
 import { BankAccountContext } from '../../App';
 import { StyledHeader } from '../../App/App.styled';
@@ -34,7 +34,7 @@ export const ExchangeCurrencies = () => {
     <div>{`1 ${pickedFromCurrency} = ${parseDecimals(rate)} ${pickedToCurrency}`}</div>
   );
 
-  const fetchRateData = async () => {
+  const fetchRateData = useCallback(async () => {
     setIsRateLoading(true);
 
     try {
@@ -64,7 +64,7 @@ export const ExchangeCurrencies = () => {
     } finally {
       setIsRateLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     fetchRateData();
@@ -76,34 +76,37 @@ export const ExchangeCurrencies = () => {
     return () => {
       clearInterval(fetchRateDataInterval);
     };
-  }, []);
+  }, [fetchRateData]);
 
-  const onFormSubmit = (values: { from: string; to: string }) => {
-    setIsExchangeLoading(true);
+  const onFormSubmit = useCallback(
+    (values: { from: string; to: string }) => {
+      setIsExchangeLoading(true);
 
-    axios
-      .get(`${REACT_APP_API_URL}convert`, {
-        params: { from: pickedFromCurrency, to: pickedToCurrency, amount: values.from },
-      })
-      .then(({ data }) => {
-        setBankAccount({
-          ...bankAccount,
-          [pickedFromCurrency]: bankAccount[pickedFromCurrency] - data.query.amount,
-          [pickedToCurrency]: bankAccount[pickedToCurrency] + data.result,
+      axios
+        .get(`${REACT_APP_API_URL}convert`, {
+          params: { from: pickedFromCurrency, to: pickedToCurrency, amount: values.from },
+        })
+        .then(({ data }) => {
+          setBankAccount({
+            ...bankAccount,
+            [pickedFromCurrency]: bankAccount[pickedFromCurrency] - data.query.amount,
+            [pickedToCurrency]: bankAccount[pickedToCurrency] + data.result,
+          });
+        })
+        .catch(() => {
+          notification.error({
+            message: `Couldn't process your conversion`,
+            description: 'Please, try again later',
+          });
+        })
+        .finally(() => {
+          setIsExchangeLoading(false);
+
+          history.push('/');
         });
-      })
-      .catch(() => {
-        notification.error({
-          message: `Couldn't process your conversion`,
-          description: 'Please, try again later',
-        });
-      })
-      .finally(() => {
-        setIsExchangeLoading(false);
-
-        history.push('/');
-      });
-  };
+    },
+    [bankAccount, history, pickedFromCurrency, pickedToCurrency, setBankAccount]
+  );
 
   return (
     <>
@@ -122,9 +125,9 @@ export const ExchangeCurrencies = () => {
             <Button
               type="primary"
               htmlType="submit"
-              form="ExchangeCurrencies"
+              form={forms.ExchangeCurrencies}
               loading={isExchangeLoading}
-              disabled={isExchangeLoading || pickedFromCurrency === pickedToCurrency}
+              disabled={isExchangeLoading || isSameCurrencyPicked}
             >
               Exchange
             </Button>

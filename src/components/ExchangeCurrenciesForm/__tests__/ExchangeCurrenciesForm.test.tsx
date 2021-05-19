@@ -12,7 +12,7 @@ const props = {
 };
 
 describe('<ExchangeCurrenciesForm />', () => {
-  it('renders correctly', () => {
+  it('renders correctly', async () => {
     const tree = renderer.create(<ExchangeCurrenciesForm {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });

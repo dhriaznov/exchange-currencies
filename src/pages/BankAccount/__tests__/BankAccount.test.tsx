@@ -10,7 +10,7 @@ import { BankAccount } from '../BankAccount';
 const setBankAccount = jest.fn();
 
 describe('<BankAccount />', () => {
-  it('renders correctly', () => {
+  it('renders correctly', async () => {
     const tree = renderer
       .create(
         <BankAccountContext.Provider value={{ bankAccount, setBankAccount }}>
@@ -23,7 +23,7 @@ describe('<BankAccount />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('redirects to /exchange-currencies page when user clicks on the Exchange button', () => {
+  it('redirects to /exchange-currencies page when user clicks on the Exchange button', async () => {
     const { queryByText, getByText } = render(
       <BankAccountContext.Provider value={{ bankAccount, setBankAccount }}>
         <Router>

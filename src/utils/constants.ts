@@ -5,3 +5,7 @@ export const bankAccount = {
   [Currencies.GBP]: 98.22,
   [Currencies.USD]: 78.34,
 };
+
+export const forms = {
+  ExchangeCurrencies: 'ExchangeCurrencies',
+};

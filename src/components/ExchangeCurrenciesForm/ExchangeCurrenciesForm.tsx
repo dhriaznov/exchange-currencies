@@ -1,8 +1,8 @@
-import React, { FC, useEffect } from 'react';
+import React, { FC, useCallback, useEffect } from 'react';
 import { Form, Space } from 'antd';
 
 import { AccountType, Currencies } from 'types';
-import { parseDecimals, inputFormatter } from 'utils';
+import { parseDecimals, inputFormatter, forms } from 'utils';
 import {
   StyledCarousel,
   StyledCarouselItem,
@@ -27,11 +27,14 @@ export const ExchangeCurrenciesForm: FC<Props> = ({
 }) => {
   const [form] = Form.useForm();
 
-  const onFinish = (values: { from: string; to: string }) => {
-    onFormSubmit(values);
+  const onFinish = useCallback(
+    (values: { from: string; to: string }) => {
+      onFormSubmit(values);
 
-    form.resetFields();
-  };
+      form.resetFields();
+    },
+    [form, onFormSubmit]
+  );
 
   useEffect(() => {
     if (!rate) {
@@ -41,15 +44,17 @@ export const ExchangeCurrenciesForm: FC<Props> = ({
     form.setFieldsValue({ to: +form.getFieldValue('from') * rate });
   }, [form, rate]);
 
+  const initialFormValues = {
+    from: 0,
+    to: 0,
+  };
+
   return (
     <Form
-      name="ExchangeCurrencies"
+      name={forms.ExchangeCurrencies}
       form={form}
       onFinish={onFinish}
-      initialValues={{
-        from: 0,
-        to: 0,
-      }}
+      initialValues={initialFormValues}
     >
       <StyledCarousel
         draggable

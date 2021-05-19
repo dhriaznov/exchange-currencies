@@ -10,7 +10,7 @@ import { ExchangeCurrencies } from '../ExchangeCurrencies';
 const setBankAccount = jest.fn();
 
 describe('<ExchangeCurrencies />', () => {
-  it('renders correctly', () => {
+  it('renders correctly', async () => {
     const tree = renderer
       .create(
         <BankAccountContext.Provider value={{ bankAccount, setBankAccount }}>
@@ -23,7 +23,7 @@ describe('<ExchangeCurrencies />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('redirects to the root page when user clicks on the Cancel button', () => {
+  it('redirects to the root page when user clicks on the Cancel button', async () => {
     const { queryByText, getByText } = render(
       <BankAccountContext.Provider value={{ bankAccount, setBankAccount }}>
         <Router>
@@ -41,7 +41,7 @@ describe('<ExchangeCurrencies />', () => {
     expect(global.window.location.pathname).toEqual('/');
   });
 
-  it('redirects to the root page when user clicks on the Exchange button', () => {
+  it('redirects to the root page when user clicks on the Exchange button', async () => {
     const { queryByText, getByText } = render(
       <BankAccountContext.Provider value={{ bankAccount, setBankAccount }}>
         <Router>
