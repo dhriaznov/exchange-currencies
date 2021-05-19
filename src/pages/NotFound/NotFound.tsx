@@ -1,3 +1,9 @@
 import React from 'react';
 
-export const NotFound = () => <>Not Found</>;
+import { StyledPageWrapper, StyledTitle } from './NotFound.styled';
+
+export const NotFound = () => (
+  <StyledPageWrapper>
+    <StyledTitle level={2}>Not Found</StyledTitle>
+  </StyledPageWrapper>
+);
