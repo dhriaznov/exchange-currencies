@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import { Typography } from 'antd';
 
+import { colors } from 'ui';
+
 const { Title } = Typography;
 
 export const StyledTitle = styled(Title)`
   &.ant-typography {
-    color: white;
+    color: ${colors.white};
   }
 `;
 
@@ -15,5 +17,5 @@ export const StyledPageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #096dd9;
+  background-color: ${colors.blueHighContrast};
 `;

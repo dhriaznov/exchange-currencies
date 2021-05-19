@@ -2,12 +2,13 @@ import { Carousel, Typography, Button } from 'antd';
 import styled from 'styled-components';
 
 import { ExchangeIcon } from 'assets';
+import { colors } from 'ui';
 
 const { Title } = Typography;
 
 export const StyledCarousel = styled(Carousel)`
   height: 50vh;
-  background-color: #096dd9;
+  background-color: ${colors.blueHighContrast};
 `;
 
 export const StyledCarouselItem = styled.div`
@@ -16,7 +17,7 @@ export const StyledCarouselItem = styled.div`
   align-items: center;
   flex-wrap: wrap;
   height: 50vh;
-  color: white;
+  color: ${colors.white};
 `;
 
 export const StyledControlsWrapper = styled.div`
@@ -28,7 +29,7 @@ export const StyledControlsWrapper = styled.div`
 
 export const StyledTitle = styled(Title)`
   &.ant-typography {
-    color: white;
+    color: ${colors.white};
   }
 `;
 
@@ -46,13 +47,13 @@ export const StyledButton = styled(Button)`
   :hover,
   :focus {
     svg {
-      fill: #40a9ff;
+      fill: ${colors.blueLight};
     }
   }
 
   :active {
     svg {
-      fill: #096dd9;
+      fill: ${colors.blueHighContrast};
     }
   }
 `;
