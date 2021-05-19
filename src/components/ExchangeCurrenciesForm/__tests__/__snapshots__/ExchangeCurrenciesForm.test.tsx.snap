@@ -1,0 +1,2711 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExchangeCurrenciesForm /> renders correctly 1`] = `
+<form
+  className="ant-form ant-form-horizontal"
+  id="ExchangeCurrencies"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="ant-carousel"
+  >
+    <div
+      className="slick-slider sc-dlnjwi jOMisf slick-initialized"
+      dir="ltr"
+    >
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          EUR
+                        </h2>
+                        <div>
+                          You have 
+                          144.46
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          GBP
+                        </h2>
+                        <div>
+                          You have 
+                          98.22
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          EUR
+                        </h2>
+                        <div>
+                          You have 
+                          144.46
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          GBP
+                        </h2>
+                        <div>
+                          You have 
+                          98.22
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_from"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="slick-dots slick-dots-bottom"
+        onMouseEnter={null}
+        onMouseLeave={null}
+        onMouseOver={null}
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          className="slick-active"
+        >
+          <button
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="ant-carousel"
+  >
+    <div
+      className="slick-slider sc-dlnjwi bnqoFR slick-initialized"
+      dir="ltr"
+    >
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          EUR
+                        </h2>
+                        <div>
+                          You have 
+                          144.46
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          GBP
+                        </h2>
+                        <div>
+                          You have 
+                          98.22
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          EUR
+                        </h2>
+                        <div>
+                          You have 
+                          144.46
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          GBP
+                        </h2>
+                        <div>
+                          You have 
+                          98.22
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-bdnxRM gaArSt"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={
+                      Object {
+                        "flexWrap": "wrap",
+                        "marginBottom": -40,
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 40,
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div>
+                        <h2
+                          className="ant-typography sc-hKFxyN hhJELS"
+                          style={
+                            Object {
+                              "WebkitLineClamp": undefined,
+                            }
+                          }
+                        >
+                          USD
+                        </h2>
+                        <div>
+                          You have 
+                          78.34
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "paddingBottom": 40,
+                        }
+                      }
+                    >
+                      <div
+                        className="ant-row ant-form-item sc-gtsrHT cuAYxX"
+                        style={Object {}}
+                      >
+                        <div
+                          className="ant-col ant-form-item-control"
+                          style={Object {}}
+                        >
+                          <div
+                            className="ant-form-item-control-input"
+                          >
+                            <div
+                              className="ant-form-item-control-input-content"
+                            >
+                              <div
+                                className="ant-input-number ant-input-number-borderless sc-eCApnc fULOcZ"
+                                onBlur={[Function]}
+                                onCompositionEnd={[Function]}
+                                onCompositionStart={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                              >
+                                <div
+                                  className="ant-input-number-handler-wrap"
+                                >
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Increase Value"
+                                    className="ant-input-number-handler ant-input-number-handler-up"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="up"
+                                      className="anticon anticon-up ant-input-number-handler-up-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                  <span
+                                    aria-disabled={false}
+                                    aria-label="Decrease Value"
+                                    className="ant-input-number-handler ant-input-number-handler-down"
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    role="button"
+                                    unselectable="on"
+                                  >
+                                    <span
+                                      aria-label="down"
+                                      className="anticon anticon-down ant-input-number-handler-down-inner"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div
+                                  className="ant-input-number-input-wrap"
+                                >
+                                  <input
+                                    aria-valuenow="0"
+                                    autoComplete="off"
+                                    className="ant-input-number-input"
+                                    id="ExchangeCurrencies_to"
+                                    onChange={[Function]}
+                                    role="spinbutton"
+                                    step={1}
+                                    type="number"
+                                    value="0"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="slick-dots slick-dots-bottom"
+        onMouseEnter={null}
+        onMouseLeave={null}
+        onMouseOver={null}
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          className="slick-active"
+        >
+          <button
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</form>
+`;

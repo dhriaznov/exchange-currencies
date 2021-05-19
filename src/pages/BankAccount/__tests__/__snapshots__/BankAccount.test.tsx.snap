@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BankAccount /> renders correctly 1`] = `
+Array [
+  <div
+    className="ant-carousel"
+  >
+    <div
+      className="slick-slider sc-iCoGMd fuAfKG slick-initialized"
+      dir="ltr"
+    >
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        78.34
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        USD
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        144.46
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        EUR
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        98.22
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        GBP
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        78.34
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        USD
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        144.46
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        EUR
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        98.22
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        GBP
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <div
+                  className="sc-fujyAs jMxwMR"
+                >
+                  <div
+                    className="ant-space ant-space-horizontal ant-space-align-center"
+                    style={Object {}}
+                  >
+                    <div
+                      className="ant-space-item"
+                      style={
+                        Object {
+                          "marginRight": 10,
+                        }
+                      }
+                    >
+                      <h2
+                        className="ant-typography sc-jrsJWt jEOkwa"
+                        style={
+                          Object {
+                            "WebkitLineClamp": undefined,
+                          }
+                        }
+                      >
+                        78.34
+                      </h2>
+                    </div>
+                    <div
+                      className="ant-space-item"
+                      style={Object {}}
+                    >
+                      <div>
+                        USD
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="slick-dots slick-dots-bottom"
+        onMouseEnter={null}
+        onMouseLeave={null}
+        onMouseOver={null}
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          className="slick-active"
+        >
+          <button
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <div
+    className="sc-pNWdM kSnfzn"
+  >
+    <a
+      href="/exchange-currencies"
+      onClick={[Function]}
+    >
+      <button
+        className="ant-btn sc-iqAclL fXEQxc"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="sc-kEqXSa gdfdIK"
+        >
+          exchange.svg
+        </svg>
+        <span>
+          Exchange
+        </span>
+      </button>
+    </a>
+  </div>,
+]
+`;

@@ -33,8 +33,8 @@ export const StyledTitle = styled(Title)`
 `;
 
 export const StyledExchangeIcon = styled(ExchangeIcon)`
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   transition: inherit;
   margin-right: 5px;
 `;

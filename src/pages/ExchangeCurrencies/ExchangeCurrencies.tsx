@@ -30,6 +30,10 @@ export const ExchangeCurrencies = () => {
   const rate = pickedFromCurrencyRate && pickedFromCurrencyRate[pickedToCurrency];
   const isSameCurrencyPicked = pickedFromCurrency === pickedToCurrency;
 
+  const ratesInfoRow = !isRateLoading && !isSameCurrencyPicked && rate && (
+    <div>{`1 ${pickedFromCurrency} = ${parseDecimals(rate)} ${pickedToCurrency}`}</div>
+  );
+
   const fetchRateData = async () => {
     setIsRateLoading(true);
 
@@ -112,9 +116,7 @@ export const ExchangeCurrencies = () => {
           </Col>
           <Col>
             {isRateLoading && !isSameCurrencyPicked && <Loader />}
-            {!isRateLoading && !isSameCurrencyPicked && rate && (
-              <div>{`1 ${pickedFromCurrency} = ${parseDecimals(rate)} ${pickedToCurrency}`}</div>
-            )}
+            {ratesInfoRow}
           </Col>
           <Col>
             <Button
