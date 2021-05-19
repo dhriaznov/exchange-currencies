@@ -8,7 +8,7 @@ exports[`<App /> renders correctly 1`] = `
     className="ant-carousel"
   >
     <div
-      className="slick-slider sc-iCoGMd fuAfKG slick-initialized"
+      className="slick-slider sc-iCoGMd eXpBcl slick-initialized"
       dir="ltr"
     >
       <div
@@ -64,7 +64,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -79,7 +79,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -126,7 +126,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -141,7 +141,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -188,7 +188,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -203,7 +203,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -250,7 +250,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -265,7 +265,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -311,7 +311,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -326,7 +326,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -372,7 +372,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -387,7 +387,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -433,7 +433,7 @@ exports[`<App /> renders correctly 1`] = `
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -448,7 +448,7 @@ exports[`<App /> renders correctly 1`] = `
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -522,7 +522,7 @@ exports[`<App /> renders correctly 1`] = `
       onClick={[Function]}
     >
       <button
-        className="ant-btn sc-iqAclL fXEQxc"
+        className="ant-btn sc-iqAclL kGzmPw"
         onClick={[Function]}
         type="button"
       >

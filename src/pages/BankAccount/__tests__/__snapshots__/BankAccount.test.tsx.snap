@@ -6,7 +6,7 @@ Array [
     className="ant-carousel"
   >
     <div
-      className="slick-slider sc-iCoGMd fuAfKG slick-initialized"
+      className="slick-slider sc-iCoGMd eXpBcl slick-initialized"
       dir="ltr"
     >
       <div
@@ -62,7 +62,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -77,7 +77,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -124,7 +124,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -139,7 +139,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -186,7 +186,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -201,7 +201,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -248,7 +248,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -263,7 +263,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -309,7 +309,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -324,7 +324,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -370,7 +370,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -385,7 +385,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -431,7 +431,7 @@ Array [
                 tabIndex={-1}
               >
                 <div
-                  className="sc-fujyAs jMxwMR"
+                  className="sc-fujyAs kaAmjU"
                 >
                   <div
                     className="ant-space ant-space-horizontal ant-space-align-center"
@@ -446,7 +446,7 @@ Array [
                       }
                     >
                       <h2
-                        className="ant-typography sc-jrsJWt jEOkwa"
+                        className="ant-typography sc-jrsJWt gbjHbv"
                         style={
                           Object {
                             "WebkitLineClamp": undefined,
@@ -520,7 +520,7 @@ Array [
       onClick={[Function]}
     >
       <button
-        className="ant-btn sc-iqAclL fXEQxc"
+        className="ant-btn sc-iqAclL kGzmPw"
         onClick={[Function]}
         type="button"
       >
